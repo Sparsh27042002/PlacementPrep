@@ -110,7 +110,7 @@ print("\nSample of generated data:")
 print(df_dummy.head())
 print(f"\nModel R^2 score: {model.score(X, y):.2f}") # Evaluate on training data
 
-!pip install streamlit
+
 
 import streamlit as st
 import numpy as np
