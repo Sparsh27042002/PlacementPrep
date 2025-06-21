@@ -529,7 +529,7 @@ if st.button("Get Career Insights & Roadmap"):
 st.markdown("---")
 st.markdown("Disclaimer: This tool provides estimates and suggestions based on a trained model and LLM. Actual outcomes may vary.")
 
-!pip install pyngrok
+
 
 from pyngrok import ngrok
 public_url = ngrok.connect(addr="8501", bind_tls=True)
